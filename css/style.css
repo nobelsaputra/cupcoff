@@ -1,0 +1,99 @@
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caprasimo&family=Lilita+One&family=Play&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.cap-reg {
+  font-family: 'Caprasimo', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Caprasimo', serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #332941;
+}
+
+.logo-image {
+  width: 170px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+.nav-link {
+  color: #ffc95f;
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: #ffc95f;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+.navbar {
+  box-shadow: var(--box-shadow);
+  background-color: #332941;
+}
+nav li {
+  border: none;
+  display: inline-block;
+  padding-right: 5px;
+  transition: all linear 0.5s;
+  margin-right: 20px;
+  font-size: 18px;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding-right: 5px;
+}
+
+/* color */
+
+.brown2 {
+  color: #ffc95f;
+}
+
+.hero {
+  min-height: 70vh;
+}
+
+.hero3 {
+  min-height: 70vh;
+}
+
+.btn-outline-light {
+  color: #ffc95f;
+  border: 1px solid #ffc95f;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffc95f;
+  color: black;
+  border: 1px solid #ffc95f;
+}
+
+a {
+  text-decoration: none;
+}
