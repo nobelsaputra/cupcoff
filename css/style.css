@@ -97,3 +97,20 @@ nav li a {
 a {
   text-decoration: none;
 }
+
+.btn-light {
+  background-color: #ffc95f;
+  color: black;
+  border: 1px solid #ffc95f;
+}
+.btn-light:hover {
+  background-color: #ffc95f;
+  color: black;
+  border: 1px solid #ffc95f;
+}
+
+@media screen and (max-width: 1023px){
+  .khusus-lg {
+    display: none;
+  }
+}
